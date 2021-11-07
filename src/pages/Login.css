@@ -1,0 +1,13 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+    .Login form {
+        border: 1px solid;
+        padding: 50px 60px;
+        margin-top: 20vh;
+        -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    }
+}
