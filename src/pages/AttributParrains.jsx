@@ -1,7 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Gallerie from '../components/Gallerie'
+
+
 class AttributParrains extends Component {
+
+
     render() {
         return (
             <div className="px-5">

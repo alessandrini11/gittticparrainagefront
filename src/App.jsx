@@ -7,12 +7,14 @@ import ParrainsFieuls from './pages/ParrainsFieuls';
 import Formulaire from './components/Formulaire';
 import { Link, Route, Switch } from "react-router-dom"
 import Login from './pages/Login';
+import Loading from './pages/Loading';
 
 function App() {
   return (
     <div className="">
       <Switch>
-        <Route exact path="/" component={Login}/>
+        <Route exact path="/" component={Loading}/>
+        <Route exact path="/login" component={Login}/>
         <Route exact path="/home" component={Home} />
         <Route exact path="/etudiants" component={Etudiants} />
         <Route path="/attribution" component={AttributParrains} />
